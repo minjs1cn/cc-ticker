@@ -1,0 +1,38 @@
+{
+	"name": "@byte1024/ticker",
+	"version": "0.0.1",
+	"main": "dist/main.js",
+	"description": "timeline ticker",
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/minjs1cn/cc-ticker"
+	},
+	"author": {
+		"name": "青杨",
+		"email": "qingyang_88@sina.com"
+	},
+	"keywords": [
+		"@byte2014",
+		"ticker"
+	],
+	"exports": {
+		".": "./dist/main.js"
+	},
+	"types": "types/main.d.ts",
+	"files": [
+		"dist",
+		"types"
+	],
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc"
+	},
+	"devDependencies": {
+		"typescript": "^4.3.2",
+		"vite": "^2.6.4",
+		"@byte1024/easing": "^0.0.4"
+	}
+}

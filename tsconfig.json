@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"target": "ES5",
+		"lib": ["es2015"],
+		"declaration": true,
+		"declarationDir": "./types",
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"forceConsistentCasingInFileNames": true,
+		"useDefineForClassFields": false
+	},
+	"include": ["src/**/*.ts"],
+	"exclude": []
+}
